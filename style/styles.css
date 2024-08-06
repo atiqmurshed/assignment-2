@@ -15,7 +15,6 @@
     box-sizing: border-box;
 }
 .container {
-    margin-left: -10px;
     width: 1400px;
     height: 700px;
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
@@ -24,11 +23,11 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 50px 180px;
+    margin: 30px 120px;
    
     
 } 
-.home-btn{
+.home-btn {
     background-color: #E6533C;
     padding: 8px 20px 8px 20px;
     border-radius: 8px;
@@ -46,6 +45,7 @@ nav > ul > li {
     list-style: none;
 }
 .list-item {
+    
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -54,10 +54,22 @@ nav > ul > li {
 }
 /* Get body section start here */
 .body-section {
-    border: 2px solid darkgray;
-    width: 530px;
-    height: 460px;
+    width: 560px;
+    height: 400px;
+    border: 2px solid dark;
     margin: 70px 190px;
+}
+#inil {
+    font-family: Miama;
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 93.6px;
+    text-align: left;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 60px; 
 }
 .text-size {
     font-weight: 900px;
@@ -93,12 +105,15 @@ nav > ul > li {
     border: 1px solid  #FFFFFF80;
 }
 .banner {
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
     display: flex;
+    width: 1330px;
+    height: 300px;
 }
-.plane {
-    border: 1px solid gray;
+.picture {
+    border: 1px solid dark;
     width: 349px;
-    height: 580px;
+    height: 500px;
     margin-top: 0px;
 }
 .number {
@@ -128,4 +143,66 @@ nav > ul > li {
     line-height: 20px;
     letter-spacing: 1px;
     text-align: left;
+}
+/* main section start here */
+.container {
+    width: Hug (1,044px)px;
+    height: Hug (452px)px;
+}
+.title-part {
+    text-align: center;
+    width: Hug (671px)px;
+    height: Hug (120px)px;
+    gap: 14px;
+    opacity: 0px;
+}
+.item {
+    align-items: center;
+} 
+.parant-div {
+    width: Hug (1,044px)px;
+    height: Hug (274px)px;
+    gap: 40px;
+    opacibackground-color: #FFFFFF10;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.new-title {
+    font-size: 50px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.code-pic {
+    width: 180px;
+    height: 180px;
+    margin-top: 50px;
+    border-radius: 100px 100px 100px 100px;
+    border: 4px 4px 4px 0px;
+    opacity: 0px;
+
+}
+.miles {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    width: 1060px;
+    height: 371px;
+    padding: 30px 32px 29px 54px;
+    border-radius: 18px;
+}
+.run-mile {
+    font-family: "Inter", sans-serif;
+    width: 443px;
+    height: 290px;
+    margin: 80px 60px;
+    gap: 500px;
+}
+.nato {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px 18px 18px 18px;
+    opacity: 0px;
+
 }
