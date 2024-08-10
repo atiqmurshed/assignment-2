@@ -215,7 +215,9 @@
       height: 312px;
       border-radius: 18px 18px 18px 18px;
       opacity: 0px;
-  
+      object-fit: none;
+      object-position: 68% 28%;
+      background-size: 230%; 
   }
   /* BMI section start */
   .clu {
@@ -290,12 +292,55 @@ td, th {
 
 }
 .input-last {
-    margin: 10px;
-    width: 550px;
+    margin: 10px 4px;
+    width: 553px;
     height: 45px;
     padding: 10px;
     border-radius: 8px;
     background: #FFFFFF1A;
     border: 1px solid #FFFFFF1A;
- 
+}
+.home-bti{
+    width: 150px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 18px;
+    border: 1px solid tomato;
+}
+/* traning segtor start */
+.contemp{
+    max-width: 1400px;
+    height: 800px;
+    background-color: black;
+}
+.traning-segtor{
+    width: 650px;
+    height: 100px;
+    text-align: center;
+    margin-left: 420px;
+    text-align: center;
+    line-height: 20px;
+}
+.meet {
+   font-size: 40px; 
+   padding: 80px;
+} 
+.meeting {
+    font-size: 12px;
+    margin-top: -60px;
+} 
+.bangla {
+    background-color: #111111;
+    align-items: center;
+    margin: 120px 200px;
+    width: 950px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+.img-count{
+    width: 300px;
+    height: 260px;
+    border-radius: 18px;
 }
