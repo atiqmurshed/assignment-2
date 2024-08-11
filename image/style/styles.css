@@ -6,7 +6,7 @@
     font-variation-settings:
       "slnt" 0;
   }
-  /* navebar style start here */
+/* navebar style start here */
   *{
       padding: 0;
       margin: 0;
@@ -22,35 +22,35 @@
       display: flex;
       justify-content: space-between;
       margin: 10px 120px;
-     
+    }
+.title-bar {
+        color: #E6533C;
+        margin-top: 10px;
+        font-size: 30px;
+    }  
+.list-item {
       
-  } 
-  .home-btn {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        padding: 20px 30px;
+        gap: 40px; 
+    }    
+  
+.home-btn {
       background-color: #E6533C;
       padding: 8px 20px 8px 20px;
       border-radius: 8px;
       border: 1px solid tomato;
-  
   }
-  .title-bar {
-      color: #E6533C;
-      margin-top: 10px;
-      font-size: 30px;
-  }
+ 
   #text-color{
      color: #FFFFFF;
   }
   nav > ul > li {
       list-style: none;
   }
-  .list-item {
-      
-      display: flex;
-      align-items: center;
-      margin-top: 30px;
-      padding: 20px 30px;
-      gap: 40px; 
-  }
+ 
   /* Get body section start here */
   .body-section {
       width: 560px;
@@ -310,7 +310,7 @@ td, th {
 /* traning segtor start */
 .contemp{
     max-width: 1400px;
-    height: 800px;
+    height: 900px;
     background-color: black;
 }
 .traning-segtor{
@@ -332,9 +332,9 @@ td, th {
 .bangla {
     background-color: #111111;
     align-items: center;
-    margin: 120px 200px;
+    margin: 130px 200px;
     width: 950px;
-    height: 550px;
+    height: 560px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
@@ -343,4 +343,69 @@ td, th {
     width: 300px;
     height: 260px;
     border-radius: 18px;
+}
+.banner-card{
+    position: relative;
+}
+.banner-text{
+    margin-top: -50px;
+    margin-left: 10px; 
+    color: white; 
+
+}
+.banner-text p {
+    font-size: 12px;
+    
+}
+
+/* footer section start to here */
+.foot{
+    width: 1400px;
+    height: 400px;
+    background-color: #222222;
+    position: relative;
+}
+.head-div{
+    width: 1000px;
+    height: 200px; 
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.col-1 {
+    width: 420px;
+    height: 150px;
+} 
+.col-1, h2, p {
+    padding: 8px;
+}
+.head-title{
+    color: #E6533C;
+    font-size: 50px;
+}
+.list-count{
+    width: 180px;
+    height: 210px;
+  
+}
+ul, li{ 
+    list-style: none;
+   padding: 8px;
+}  
+h5{
+    width: 840px;
+    height: 2px; 
+    background-color:  #FFFFFF1A;
+    position: absolute;
+    left: 16%;
+    bottom: 25%;
+}   
+.h{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    left: 35%;
+    bottom: 12%;
 }
